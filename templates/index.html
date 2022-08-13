@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Get Binary</title>
+    <link rel="stylesheet"  href="{{
+      url_for('static', filename='css/main.css')}}">
+</head>
+<div class="container">
+<body>
+   <br>
+   <form action="GetBinary" method="post">
+      {% for message in get_flashed_messages()%}
+         <p> {{message}}</p>
+      {% endfor %}
+      <br>
+      <input type="number" name="integer" placeholder="0" required = "0" min="0" autofocus>
+      <input type="submit" value="convert" id="convert">
+      <br>      
+   </form>
+</body>
+</div>
+</html>

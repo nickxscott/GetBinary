@@ -1,0 +1,62 @@
+body {
+	background-color:  #000000;
+	text-align:  center;
+	margin: 0;
+  	position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	-ms-transform: translate(-50%, -50%);
+  	transform: translate(-50%, -50%);
+}
+p{
+	color: #00ff00;
+	font-family:  Lucida Console;
+	font-size:  4em;
+	margin: 20px;
+}
+
+input[type=number] {
+	color: #00ff00;
+	width:  150px;
+	height:  50px;
+	margin:  20px;
+	font-family:  Lucida Console;
+	text-align:  left;
+	font-size:  1.5em;
+	background-color:  black;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #00ff00;
+	outline: none !important;
+  	margin: 0;
+}
+
+input[type=submit]{
+	color: #00ff00;
+	width:  150px;
+	height:  50px;
+	margin:  20px;
+	font-family:  Lucida Console;
+	text-align:  center;
+	font-size:  1.5em;
+	background-color:  black;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #00ff00;
+}
+div {
+	background-color:  #000000;
+	text-align:  center;
+	height: 200px;
+  	position: relative;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
