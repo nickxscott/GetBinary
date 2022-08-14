@@ -44,7 +44,7 @@ def to_binary():
     for i in b:
         output += str(i)
         
-    flash("binary equivalent: " + output)
+    flash("binary code: " + output)
     
     return render_template('index.html')
 
