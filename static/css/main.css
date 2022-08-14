@@ -11,14 +11,14 @@ body {
 }
 p{
 	color: #00ff00;
-	font-size:  4em;
+	font-size:  2.5em;
 	margin: 20px;
 }
 
 input[type=number] {
 	color: #00ff00;
 	width:  150px;
-	height:  60px;
+	height:  50px;
 	margin:  10px;
 	font-family: 'Courier prime';
 	text-align:  left;
@@ -35,7 +35,7 @@ input[type=submit]{
 	color: #00ff00;
 	font-family: 'Courier prime';
 	width:  150px;
-	height:  60px;
+	height:  50px;
 	margin:  10px;
 	text-align:  center;
 	font-size:  1.5em;
