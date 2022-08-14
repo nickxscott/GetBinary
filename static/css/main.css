@@ -18,8 +18,8 @@ p{
 input[type=number] {
 	color: #00ff00;
 	width:  150px;
-	height:  50px;
-	margin:  20px;
+	height:  60px;
+	margin:  10px;
 	font-family: 'Courier prime';
 	text-align:  left;
 	font-size:  1.5em;
@@ -28,21 +28,23 @@ input[type=number] {
 	border-style: solid;
 	border-color: #00ff00;
 	outline: none !important;
-  	margin: 0;
+  border-radius: 0px;
 }
 
 input[type=submit]{
 	color: #00ff00;
 	font-family: 'Courier prime';
 	width:  150px;
-	height:  50px;
-	margin:  20px;
+	height:  60px;
+	margin:  10px;
 	text-align:  center;
 	font-size:  1.5em;
 	background-color:  black;
 	border-width: 1px;
 	border-style: solid;
 	border-color: #00ff00;
+	border-radius: 0px;
+	outline: none !important;
 }
 div {
 	background-color:  #000000;
