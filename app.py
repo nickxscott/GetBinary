@@ -6,7 +6,7 @@ app.secret_key = "thisisthesecretkey"
 
 @app.route('/')
 def index():
-  flash("enter base 10 integer")
+  flash("enter base-10 integer")
   return render_template('index.html')
 
 @app.route('/GetBinary', methods=["POST", "GET"])
@@ -44,7 +44,7 @@ def to_binary():
     for i in b:
         output += str(i)
         
-    flash("binary code: " + output)
+    flash("binary equivalent: " + output)
     
     return render_template('index.html')
 
